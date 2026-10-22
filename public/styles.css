@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
   margin: 0;
   padding: 0;
@@ -58,4 +59,66 @@ button {
   border: 1px solid #000;
   overflow-y: auto;
   border-radius: 5px;
+=======
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+  text-align: center;
+}
+
+#chat-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+button {
+  width: 600px;
+  height: 50px;
+  font-size: 14px;
+  background: #069;
+  text-align: center;
+  line-height: 50px;
+  font-weight: bold;
+  color: #FFF;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.name,
+.email,
+.phone,
+.subject,
+.messageSend {
+  width: 600px;
+  height: 50px;
+  font-size: 14px;
+  padding: 0 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.message {
+  width: 500px;
+  font-size: 14px;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.messages {
+  width: 600px;
+  height: 400px;
+  margin: 20px 0;
+  border: 1px solid #000;
+  overflow-y: auto;
+  border-radius: 5px;
+>>>>>>> origin/main
 }
